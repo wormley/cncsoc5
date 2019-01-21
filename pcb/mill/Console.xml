@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/mike/SyncThing/Projects/STEM-USFirst/Kicad/CY8CKIT-059-Push2/CY8CKIT-059-Push.sch</source>
-    <date>Sat 24 Oct 2015 08:42:49 PM EDT</date>
-    <tool>Eeschema (2015-10-09 BZR 6257)-product</tool>
+    <source>/home/wormley/git/cncsoc5/pcb/mill/Console.sch</source>
+    <date>Wed 16 Jan 2019 09:19:47 PM PST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>CY8CKIT-059-Push.sch</source>
+        <source>Console.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -19,429 +19,152 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J1">
-      <value>CONN_01X26</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x26</footprint>
-      <libsource lib="conn" part="CONN_01X26"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>560FE8CA</tstamp>
-    </comp>
     <comp ref="J2">
       <value>CONN_01X26</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x26</footprint>
-      <libsource lib="conn" part="CONN_01X26"/>
+      <libsource lib="Console-rescue" part="CONN_01X26" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560FE8CA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X26</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x26</footprint>
+      <libsource lib="Console-rescue" part="CONN_01X26" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>560FE924</tstamp>
     </comp>
-    <comp ref="Button1">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56100597</tstamp>
-    </comp>
-    <comp ref="JS1">
-      <value>CONN_01X05</value>
-      <footprint>Aglets:PTSA-5</footprint>
-      <libsource lib="conn" part="CONN_01X05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561006CA</tstamp>
-    </comp>
-    <comp ref="JS2">
-      <value>CONN_01X05</value>
-      <footprint>Aglets:PTSA-5</footprint>
-      <libsource lib="conn" part="CONN_01X05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5610071F</tstamp>
-    </comp>
-    <comp ref="UART1">
-      <value>CONN_01X04</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561014BD</tstamp>
-    </comp>
-    <comp ref="I2C1">
-      <value>CONN_01X04</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5610152C</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101B67</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101C87</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101D51</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101E3D</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101E43</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101E49</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101F3B</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>330</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56101F41</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103E75</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103E7B</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103E81</tstamp>
-    </comp>
-    <comp ref="Button2">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561031B5</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561031BF</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561031C5</tstamp>
-    </comp>
     <comp ref="R10">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561031CB</tstamp>
-    </comp>
-    <comp ref="Button3">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561032B8</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561032C2</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>561032C8</tstamp>
+      <tstamp>5C0A782E</tstamp>
     </comp>
     <comp ref="R11">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561032CE</tstamp>
-    </comp>
-    <comp ref="Button7">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103437</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103441</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103447</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5610344D</tstamp>
-    </comp>
-    <comp ref="Button4">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103A2C</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103A36</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103A3C</tstamp>
+      <tstamp>5C0C2FFB</tstamp>
     </comp>
     <comp ref="R12">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56103A42</tstamp>
+      <tstamp>5C0D0941</tstamp>
     </comp>
-    <comp ref="Button5">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
+    <comp ref="J6">
+      <value>Conn_01x04_Female</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56104428</tstamp>
+      <tstamp>5C107A8D</tstamp>
     </comp>
-    <comp ref="R27">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R7">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56104432</tstamp>
+      <tstamp>5C18BB14</tstamp>
     </comp>
-    <comp ref="R24">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R8">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56104438</tstamp>
+      <tstamp>5C18BB1B</tstamp>
     </comp>
-    <comp ref="R21">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R9">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5610443E</tstamp>
+      <tstamp>5C18BB22</tstamp>
     </comp>
-    <comp ref="Button6">
-      <value>CONN_01X04</value>
-      <footprint>Aglets:PTSA-4</footprint>
-      <libsource lib="conn" part="CONN_01X04"/>
+    <comp ref="J5">
+      <value>Conn_01x04_Female</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561049DE</tstamp>
+      <tstamp>5C18BB29</tstamp>
     </comp>
-    <comp ref="R28">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R1">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561049E8</tstamp>
+      <tstamp>5C18E4FD</tstamp>
     </comp>
-    <comp ref="R25">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R2">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561049EE</tstamp>
+      <tstamp>5C18E504</tstamp>
     </comp>
-    <comp ref="R22">
-      <value>4.7K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="aglet" part="R"/>
+    <comp ref="R3">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561049F4</tstamp>
+      <tstamp>5C18E50B</tstamp>
     </comp>
-    <comp ref="Logo1">
-      <value>LOGO</value>
-      <footprint>Aglets:StMarySmall</footprint>
-      <libsource lib="aglet" part="LOGO"/>
+    <comp ref="J3">
+      <value>Conn_01x04_Female</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56116FAC</tstamp>
+      <tstamp>5C18E512</tstamp>
     </comp>
-    <comp ref="B1">
-      <value>HOLE</value>
-      <footprint>Aglets:MH-No6-3p5</footprint>
-      <libsource lib="aglet" part="HOLE"/>
+    <comp ref="R4">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56168795</tstamp>
+      <tstamp>5C19194E</tstamp>
     </comp>
-    <comp ref="B3">
-      <value>HOLE</value>
-      <footprint>Aglets:MH-No6-3p5</footprint>
-      <libsource lib="aglet" part="HOLE"/>
+    <comp ref="R5">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56168858</tstamp>
+      <tstamp>5C191955</tstamp>
     </comp>
-    <comp ref="B4">
-      <value>HOLE</value>
-      <footprint>Aglets:MH-No6-3p5</footprint>
-      <libsource lib="aglet" part="HOLE"/>
+    <comp ref="R6">
+      <value>680R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561688D3</tstamp>
+      <tstamp>5C19195C</tstamp>
     </comp>
-    <comp ref="B2">
-      <value>HOLE</value>
-      <footprint>Aglets:MH-No6-3p5</footprint>
-      <libsource lib="aglet" part="HOLE"/>
+    <comp ref="J4">
+      <value>Conn_01x04_Female</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>561689B4</tstamp>
-    </comp>
-    <comp ref="AnalogIO1">
-      <value>CONN_01X05</value>
-      <footprint>Aglets:PTSA-5</footprint>
-      <libsource lib="conn" part="CONN_01X05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56169B27</tstamp>
-    </comp>
-    <comp ref="LED0">
-      <value>CONN_01X06</value>
-      <footprint>Aglets:PTSA-6</footprint>
-      <libsource lib="conn" part="CONN_01X06"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5616A181</tstamp>
-    </comp>
-    <comp ref="LED1">
-      <value>CONN_01X06</value>
-      <footprint>Aglets:PTSA-6</footprint>
-      <libsource lib="conn" part="CONN_01X06"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5616A630</tstamp>
-    </comp>
-    <comp ref="Logo2">
-      <value>LOGO</value>
-      <footprint>Aglets:StMaryLarge</footprint>
-      <libsource lib="aglet" part="LOGO"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5616AC45</tstamp>
-    </comp>
-    <comp ref="T1">
-      <value>TP</value>
-      <footprint>Aglets:TP-TH</footprint>
-      <libsource lib="aglet" part="TP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562BC6A8</tstamp>
-    </comp>
-    <comp ref="T2">
-      <value>TP</value>
-      <footprint>Aglets:TP-TH</footprint>
-      <libsource lib="aglet" part="TP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562BC75D</tstamp>
-    </comp>
-    <comp ref="T3">
-      <value>TP</value>
-      <footprint>Aglets:TP-TH</footprint>
-      <libsource lib="aglet" part="TP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562BCDB6</tstamp>
-    </comp>
-    <comp ref="T4">
-      <value>TP</value>
-      <footprint>Aglets:TP-TH</footprint>
-      <libsource lib="aglet" part="TP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562BCDBC</tstamp>
+      <tstamp>5C191963</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="aglet" part="R">
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="aglet" part="TP">
-      <fields>
-        <field name="Reference">T</field>
-        <field name="Value">TP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="aglet" part="HOLE">
-      <fields>
-        <field name="Reference">B</field>
-        <field name="Value">HOLE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X26">
+    <libpart lib="Console-rescue" part="CONN_01X26">
       <footprints>
         <fp>Pin_Header_Straight_1X26</fp>
         <fp>Pin_Header_Angled_1X26</fp>
@@ -481,383 +204,255 @@
         <pin num="26" name="P26" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X04">
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
       <footprints>
-        <fp>Pin_Header_Straight_1X04</fp>
-        <fp>Pin_Header_Angled_1X04</fp>
-        <fp>Socket_Strip_Straight_1X04</fp>
-        <fp>Socket_Strip_Angled_1X04</fp>
+        <fp>R_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
       </fields>
       <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X05">
-      <footprints>
-        <fp>Pin_Header_Straight_1X05</fp>
-        <fp>Pin_Header_Angled_1X05</fp>
-        <fp>Socket_Strip_Straight_1X05</fp>
-        <fp>Socket_Strip_Angled_1X05</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X05</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X06">
-      <footprints>
-        <fp>Pin_Header_Straight_1X06</fp>
-        <fp>Pin_Header_Angled_1X06</fp>
-        <fp>Socket_Strip_Straight_1X06</fp>
-        <fp>Socket_Strip_Angled_1X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="aglet" part="LOGO">
-      <fields>
-        <field name="Reference">Logo</field>
-        <field name="Value">LOGO</field>
-      </fields>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
     </library>
-    <library logical="aglet">
-      <uri>/home/mike/Sync-Aglet/Kicad/aglet.lib</uri>
+    <library logical="Console-rescue">
+      <uri>/home/wormley/git/cncsoc5/pcb/mill/Console-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/GND">
-      <node ref="Button6" pin="1"/>
-      <node ref="T4" pin="1"/>
-      <node ref="Button5" pin="1"/>
-      <node ref="Button4" pin="1"/>
-      <node ref="T3" pin="1"/>
-      <node ref="T2" pin="1"/>
-      <node ref="JS2" pin="5"/>
-      <node ref="JS1" pin="5"/>
-      <node ref="Button7" pin="1"/>
-      <node ref="UART1" pin="4"/>
-      <node ref="I2C1" pin="4"/>
-      <node ref="LED0" pin="6"/>
-      <node ref="T1" pin="1"/>
-      <node ref="LED1" pin="6"/>
-      <node ref="AnalogIO1" pin="5"/>
-      <node ref="J2" pin="26"/>
-      <node ref="J2" pin="2"/>
-      <node ref="Button3" pin="1"/>
-      <node ref="J1" pin="25"/>
-      <node ref="Button1" pin="1"/>
-      <node ref="Button2" pin="1"/>
+    <net code="1" name="Net-(J6-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="J6" pin="1"/>
     </net>
-    <net code="2" name="Net-(LED0-Pad5)">
-      <node ref="LED0" pin="5"/>
-      <node ref="R4" pin="2"/>
+    <net code="2" name="Net-(J6-Pad3)">
+      <node ref="R12" pin="1"/>
+      <node ref="J6" pin="3"/>
     </net>
-    <net code="3" name="Net-(LED1-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="LED1" pin="2"/>
+    <net code="3" name="Net-(J6-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="J6" pin="2"/>
     </net>
-    <net code="4" name="Net-(LED1-Pad3)">
-      <node ref="LED1" pin="3"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="5" name="Net-(LED0-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="LED0" pin="2"/>
-    </net>
-    <net code="6" name="Net-(LED0-Pad4)">
-      <node ref="LED0" pin="4"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="7" name="Net-(LED0-Pad3)">
-      <node ref="LED0" pin="3"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="8" name="Net-(LED1-Pad5)">
-      <node ref="R8" pin="2"/>
-      <node ref="LED1" pin="5"/>
-    </net>
-    <net code="9" name="Net-(LED1-Pad4)">
-      <node ref="LED1" pin="4"/>
+    <net code="4" name="Net-(R7-Pad2)">
       <node ref="R7" pin="2"/>
     </net>
-    <net code="10" name="Net-(B1-Pad1)">
-      <node ref="B1" pin="1"/>
-    </net>
-    <net code="11" name="Net-(B3-Pad1)">
-      <node ref="B3" pin="1"/>
-    </net>
-    <net code="12" name="Net-(B4-Pad1)">
-      <node ref="B4" pin="1"/>
-    </net>
-    <net code="13" name="Net-(B2-Pad1)">
-      <node ref="B2" pin="1"/>
-    </net>
-    <net code="14" name="Net-(AnalogIO1-Pad4)">
-      <node ref="AnalogIO1" pin="4"/>
-    </net>
-    <net code="15" name="/P1.4">
-      <node ref="J1" pin="21"/>
-      <node ref="Button5" pin="4"/>
-      <node ref="R27" pin="2"/>
-    </net>
-    <net code="16" name="/P12.3">
-      <node ref="J1" pin="13"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="17" name="/P12.2">
-      <node ref="R5" pin="1"/>
-      <node ref="J1" pin="14"/>
-    </net>
-    <net code="18" name="/SDA">
-      <node ref="J1" pin="15"/>
-      <node ref="I2C1" pin="2"/>
-    </net>
-    <net code="19" name="/SCL">
-      <node ref="J1" pin="16"/>
-      <node ref="I2C1" pin="3"/>
-    </net>
-    <net code="20" name="/SWDIO">
-      <node ref="J1" pin="17"/>
-    </net>
-    <net code="21" name="/SWDCLK">
-      <node ref="J1" pin="18"/>
-    </net>
-    <net code="22" name="/P1.2">
-      <node ref="J1" pin="19"/>
-      <node ref="R21" pin="2"/>
-      <node ref="Button5" pin="2"/>
-    </net>
-    <net code="23" name="/P1.3">
-      <node ref="J1" pin="20"/>
-      <node ref="Button5" pin="3"/>
-      <node ref="R24" pin="2"/>
-    </net>
-    <net code="24" name="/P12.4">
-      <node ref="R7" pin="1"/>
-      <node ref="J1" pin="12"/>
-    </net>
-    <net code="25" name="/P1.5">
-      <node ref="R12" pin="2"/>
-      <node ref="Button4" pin="2"/>
-      <node ref="J1" pin="22"/>
-    </net>
-    <net code="26" name="/P1.6">
-      <node ref="R16" pin="2"/>
-      <node ref="J1" pin="23"/>
-      <node ref="Button4" pin="3"/>
-    </net>
-    <net code="27" name="/P1.7">
-      <node ref="R20" pin="2"/>
-      <node ref="J1" pin="24"/>
-      <node ref="Button4" pin="4"/>
-    </net>
-    <net code="28" name="/VDD">
-      <node ref="JS2" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="R27" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="JS1" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J1" pin="26"/>
-      <node ref="R14" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="R29" pin="1"/>
-      <node ref="R26" pin="1"/>
-      <node ref="UART1" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="AnalogIO1" pin="1"/>
+    <net code="5" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
       <node ref="R9" pin="1"/>
-      <node ref="R22" pin="1"/>
-      <node ref="R25" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="LED0" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="LED1" pin="1"/>
-      <node ref="I2C1" pin="1"/>
-      <node ref="R20" pin="1"/>
-      <node ref="R16" pin="1"/>
     </net>
-    <net code="29" name="/P12.5">
+    <net code="6" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
       <node ref="R8" pin="1"/>
-      <node ref="J1" pin="11"/>
     </net>
-    <net code="30" name="/RCV">
-      <node ref="J1" pin="10"/>
-      <node ref="UART1" pin="3"/>
-    </net>
-    <net code="31" name="/TXD">
-      <node ref="UART1" pin="2"/>
-      <node ref="J1" pin="9"/>
-    </net>
-    <net code="32" name="/P2.7">
-      <node ref="J1" pin="8"/>
-      <node ref="Button6" pin="4"/>
-      <node ref="R29" pin="2"/>
-    </net>
-    <net code="33" name="/P2.6">
-      <node ref="R26" pin="2"/>
-      <node ref="J1" pin="7"/>
-      <node ref="Button6" pin="3"/>
-    </net>
-    <net code="34" name="/P2.5">
-      <node ref="R23" pin="2"/>
-      <node ref="Button6" pin="2"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="35" name="/P2.4">
-      <node ref="Button3" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="36" name="/P2.3">
-      <node ref="R28" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="Button7" pin="4"/>
-    </net>
-    <net code="37" name="/P2.2">
-      <node ref="R25" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="Button7" pin="3"/>
-    </net>
-    <net code="38" name="/P2.1">
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="39" name="/P2.0">
-      <node ref="Button7" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="40" name="/RESET">
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="41" name="/P3.0">
-      <node ref="J2" pin="25"/>
-      <node ref="Button1" pin="4"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="42" name="/P3.1">
-      <node ref="R13" pin="2"/>
-      <node ref="J2" pin="24"/>
-      <node ref="Button1" pin="3"/>
-    </net>
-    <net code="43" name="/P3.5">
-      <node ref="R10" pin="2"/>
-      <node ref="J2" pin="20"/>
-      <node ref="Button2" pin="2"/>
-    </net>
-    <net code="44" name="/P3.4">
-      <node ref="Button2" pin="3"/>
-      <node ref="R14" pin="2"/>
-      <node ref="J2" pin="21"/>
-    </net>
-    <net code="45" name="/P3.3">
-      <node ref="Button2" pin="4"/>
-      <node ref="R18" pin="2"/>
-      <node ref="J2" pin="22"/>
-    </net>
-    <net code="46" name="/P3.2">
-      <node ref="Button1" pin="2"/>
-      <node ref="J2" pin="23"/>
+    <net code="7" name="/P1.2">
       <node ref="R9" pin="2"/>
-    </net>
-    <net code="47" name="/P3.6">
-      <node ref="R19" pin="2"/>
-      <node ref="Button3" pin="4"/>
       <node ref="J2" pin="19"/>
     </net>
-    <net code="48" name="/P3.7">
-      <node ref="R15" pin="2"/>
-      <node ref="Button3" pin="3"/>
-      <node ref="J2" pin="18"/>
+    <net code="8" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="49" name="/P15.0">
-      <node ref="J2" pin="17"/>
+    <net code="9" name="Net-(J5-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="10" name="/GND">
+      <node ref="J3" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="25"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J1" pin="26"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="11" name="/P1.4">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="12" name="/P1.3">
+      <node ref="R8" pin="2"/>
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="13" name="/P15.0">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="14" name="/P15.1">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="15" name="/XTALo">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="16" name="/XTALi">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="17" name="/P15.4">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="18" name="/P15.5">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="19" name="/P0.0">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="20" name="/P0.1">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="21" name="/VDD">
+      <node ref="J2" pin="26"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="22" name="/P1.7">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="23" name="/P1.6">
+      <node ref="J2" pin="23"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="24" name="/P1.5">
+      <node ref="J2" pin="22"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="27" name="Net-(J4-Pad1)">
       <node ref="R4" pin="1"/>
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="50" name="/P15.1">
+    <net code="28" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="29" name="/P2.4">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="30" name="/P2.3">
+      <node ref="J2" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="31" name="/P2.2">
+      <node ref="J2" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="/ABORT">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="33" name="/P2.1">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J3-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="36" name="/P2.7">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="37" name="/P2.6">
+      <node ref="J2" pin="7"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="38" name="/P2.5">
+      <node ref="J2" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
       <node ref="R3" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J3-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="41" name="/P3.0">
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="42" name="/P0.2">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="43" name="/P3.1">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="44" name="/P3.2">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="45" name="/P3.3">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="46" name="/P3.4">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="47" name="/P3.5">
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="48" name="/P3.6">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="49" name="/P3.7">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="50" name="/TXD">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="51" name="/SWDIO">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="52" name="/SCL">
       <node ref="J2" pin="16"/>
     </net>
-    <net code="51" name="/XTALo">
+    <net code="53" name="/SDA">
       <node ref="J2" pin="15"/>
     </net>
-    <net code="52" name="/XTALi">
+    <net code="54" name="/P12.2">
       <node ref="J2" pin="14"/>
     </net>
-    <net code="53" name="/P15.4">
+    <net code="55" name="/P12.3">
       <node ref="J2" pin="13"/>
-      <node ref="R2" pin="1"/>
     </net>
-    <net code="54" name="/P15.5">
+    <net code="56" name="/P12.4">
       <node ref="J2" pin="12"/>
-      <node ref="R1" pin="1"/>
     </net>
-    <net code="55" name="/P0.0">
-      <node ref="JS1" pin="2"/>
+    <net code="57" name="/P12.5">
       <node ref="J2" pin="11"/>
     </net>
-    <net code="56" name="/P0.1">
+    <net code="58" name="/RCV">
       <node ref="J2" pin="10"/>
-      <node ref="JS1" pin="3"/>
     </net>
-    <net code="57" name="/P0.2">
-      <node ref="J2" pin="9"/>
-      <node ref="JS1" pin="4"/>
+    <net code="59" name="/SWDCLK">
+      <node ref="J2" pin="18"/>
     </net>
-    <net code="58" name="/P0.3">
-      <node ref="J2" pin="8"/>
-      <node ref="JS2" pin="2"/>
+    <net code="60" name="/P0.3">
+      <node ref="J1" pin="8"/>
     </net>
-    <net code="59" name="/P0.4">
-      <node ref="JS2" pin="3"/>
-      <node ref="J2" pin="7"/>
+    <net code="61" name="/P0.4">
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="60" name="/P0.5">
-      <node ref="J2" pin="6"/>
-      <node ref="JS2" pin="4"/>
+    <net code="62" name="/P0.5">
+      <node ref="J1" pin="6"/>
     </net>
-    <net code="61" name="/P0.6">
-      <node ref="J2" pin="5"/>
-      <node ref="AnalogIO1" pin="2"/>
+    <net code="63" name="/P0.6">
+      <node ref="J1" pin="5"/>
     </net>
-    <net code="62" name="/P0.7">
-      <node ref="AnalogIO1" pin="3"/>
-      <node ref="J2" pin="4"/>
+    <net code="64" name="/P0.7">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="65" name="/RESET">
+      <node ref="J1" pin="3"/>
     </net>
   </nets>
 </export>
